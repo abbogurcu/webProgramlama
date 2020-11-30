@@ -23,7 +23,7 @@
                     <div id="myDropdown" class="dropdown-content">
 
 
-                        <a href="#" onclick="renterTools(); return false;" class="item">
+                        <a href="#" onclick="myFunction2(2); return false;" class="item">
                             Renter Tools<div class="goTo">></div>
                         </a>
                         <div id="myDropdown2" class="dropdown-content2">
@@ -40,7 +40,7 @@
                             Rental Manager Tools
                         </a>
 
-                        <a href="#" onclick="renterTools2();return false;" class="item">
+                        <a href="#" onclick="myFunction2(3);return false;" class="item">
                             Apartments For Rent<div class="goTo">></div>
                         </a>
                         <div id="myDropdown3" class="dropdown-content2" style="width: 300px;">
@@ -76,7 +76,7 @@
                             </a>
                         </div>
 
-                        <a href="#" onclick="renterTools3();return false;" class="item">
+                        <a href="#" onclick="myFunction2(4);return false;" class="item">
                             Homes For Rent <div class="goTo">></div>
                         </a>
                         <div id="myDropdown4" class="dropdown-content2" style="width: 300px;">
@@ -112,7 +112,7 @@
                             </a>
                         </div>
 
-                        <a href="#" onclick="renterTools4();return false;" class="item">
+                        <a href="#" onclick="myFunction2(5);return false;" class="item">
                             Condos For Rent<div class="goTo">></div>
                         </a>
                         <div id="myDropdown5" class="dropdown-content2" style="width: 300px;">
@@ -150,7 +150,7 @@
                             </a>
                         </div>
 
-                        <a href="#" onclick="renterTools5();return false;" class="item">
+                        <a href="#" onclick="myFunction2(6);return false;" class="item">
                             Townhomes For Rent<div class="goTo">></div>
                         </a>
                         <div id="myDropdown6" class="dropdown-content2" style="width: 330px;">
@@ -241,13 +241,12 @@
             yazılım dillerinde gerekli uzmanlığa kavuşmaya çalışıyorum. Okul hayatım boyunca birçok proje gerçekleştirdim. Birkaç freelance iş yapma fırsatı buldum.
         </p>
         <p>
-        Kullandığım programlar; Visual Studio, IntelliJ IDEA, Eclipse, Sublime Texture 3, SQL Server, MySQL, Microsoft Access Database, MS Office.
+            Kullandığım programlar; Visual Studio, IntelliJ IDEA, Eclipse, Sublime Texture 3, SQL Server, MySQL, Microsoft Access Database, MS Office.
         </p>
         <p>
             Orta-İyi derece İngilizce biliyorum.
         </p>
     </div>
-
     <script>
         function myFunction() {
             var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -258,19 +257,10 @@
                     openDropdown.classList.remove('show');
                 }
             }
-
-            var dropdowns2 = document.getElementsByClassName("dropdown-content2");
-            var i;
-            for (i = 0; i < dropdowns2.length; i++) {
-                var openDropdown2 = dropdowns2[i];
-                if (openDropdown2.classList.contains('show')) {
-                    openDropdown2.classList.remove('show');
-                }
-            }
             document.getElementById("myDropdown").classList.toggle("show");
         }
 
-        function renterTools() {
+        function myFunction2(a) {
             var dropdowns = document.getElementsByClassName("dropdown-content2");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
@@ -279,55 +269,7 @@
                     openDropdown.classList.remove('show');
                 }
             }
-            document.getElementById("myDropdown2").classList.toggle("show");
-        }
-
-        function renterTools2() {
-            var dropdowns = document.getElementsByClassName("dropdown-content2");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-            document.getElementById("myDropdown3").classList.toggle("show");
-        }
-
-        function renterTools3() {
-            var dropdowns = document.getElementsByClassName("dropdown-content2");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-            document.getElementById("myDropdown4").classList.toggle("show");
-        }
-
-        function renterTools4() {
-            var dropdowns = document.getElementsByClassName("dropdown-content2");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-            document.getElementById("myDropdown5").classList.toggle("show");
-        }
-
-        function renterTools5() {
-            var dropdowns = document.getElementsByClassName("dropdown-content2");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-            document.getElementById("myDropdown6").classList.toggle("show");
+            document.getElementById("myDropdown" + a).classList.toggle("show");
         }
 
         window.onclick = function (event) {
