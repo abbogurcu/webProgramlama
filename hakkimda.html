@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Apartments.com: Apartments and Homes for Rent </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/apartments.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-left">
+                <div class="dropdown">
+                    <button onclick="myFunction()" style="font-size:small;" class="dropbtn">
+                        <div style="padding-right:10px;">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        Menu
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+
+
+                        <a href="#" onclick="renterTools(); return false;" class="item">
+                            Renter Tools<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown2" class="dropdown-content2">
+                            <a href="#favorites" class="item">
+                                Favorites
+                            </a>
+                            <a href="#savedsearches" class="item">
+                                Saved Searches
+                            </a>
+                        </div>
+
+
+                        <a href="#customer" class="item">
+                            Rental Manager Tools
+                        </a>
+
+                        <a href="#" onclick="renterTools2();return false;" class="item">
+                            Apartments For Rent<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown3" class="dropdown-content2" style="width: 300px;">
+                            <a href="#home" class="item">
+                                Quincy Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                San Diego Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Seattle Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Austin Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Tampa Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Hoboken Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Arlington Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Charleston Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Santa Fe Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Burbank Apartments For Rent
+                            </a>
+                        </div>
+
+                        <a href="#" onclick="renterTools3();return false;" class="item">
+                            Homes For Rent <div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown4" class="dropdown-content2" style="width: 300px;">
+                            <a href="#home" class="item">
+                                Milwaukee Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Baltimore Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Las Vegas Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Minneapolis Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Orlando Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Indianapolis Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Houston Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Phoenix Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                San Antonio Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Jacksonville Homes For Rent
+                            </a>
+                        </div>
+
+                        <a href="#" onclick="renterTools4();return false;" class="item">
+                            Condos For Rent<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown5" class="dropdown-content2" style="width: 300px;">
+                            <a href="#home" class="item">
+                                Chicago Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+
+                                Fresno Condos for Rent
+
+                            </a>
+                            <a href="#home" class="item">
+                                Virginia Beach Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Dallas Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Pasadena Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Ann Arbor Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Scottsdale Condos For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Irvine Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Jersey City Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                New Orleans Condos for Rent
+                            </a>
+                        </div>
+
+                        <a href="#" onclick="renterTools5();return false;" class="item">
+                            Townhomes For Rent<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown6" class="dropdown-content2" style="width: 330px;">
+                            <a href="#home" class="item">
+                                Kansas City Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Madison Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Philadelphia Townhomes
+                            </a>
+                            <a href="#home" class="item">
+                                Cleveland Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Tucson Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Tallahassee Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Oklahoma City Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Sacramento Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Lexington Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Baltimore Townhomes for Rent
+                            </a>
+                        </div>
+
+                        <a href="#help" class="item">
+                            Help Center
+                        </a>
+
+                        <a href="#mobile" class="item">
+                            Mobile App
+                        </a>
+                    </div>
+                </div>
+
+                <a href="test" onclick="return false;" style="margin-left: 5px;position: absolute; margin-top: 3px; text-decoration: none !important; display: -webkit-inline-box;">
+                    <img src="images/world.png" style="height: 20px;width: auto;position: relative;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);" />
+                    <p style="padding-left:5px;font-size:small;color:#4c4c4c !important;">Español</p>
+                </a>
+                <a href="hakkimda.html" style="margin-left: 105px; position: absolute; margin-top: 3px; text-decoration: none !important; display: -webkit-inline-box;">
+                    <p style="padding-left:5px;font-size:small;color:#4c4c4c !important;">Hakkımda</p>
+                </a>
+            </div>
+            <div class="header-middle">
+                <img class="header-img" src="images/mid-logo.png" />
+            </div>
+            <div class="header-right">
+                <div style="display: -webkit-inline-box;padding-right: 15px;position: relative;top: 27%;">
+                    <a href="#" onclick="return false;" style="text-decoration: none; font-size: small;">
+                        Sign Up
+                    </a>
+                    /
+                    <a href="#" onclick="return false;" style="text-decoration: none; font-size: small;">
+                        Sign In
+                    </a>
+                </div>
+                <button style="float:right;" class="pButton">
+                    Add a Property
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+    <div class="oghk">
+        <h3>Hakkımda</h3>
+        <br />
+        <p>
+            Merhaba, ismim Ahmet Baran Böğürcü. 24 yaşındayım. Samsun'da doğdum ve büyüdüm.
+        </p>
+        <p>
+            2015 yılında Samsun Milli Piyango Anadolu Lisesi'nden mezun oldum.
+            Şu anda Erciyes Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisi olarak eğitimime devam ediyorum.
+        </p>
+        <p>
+            Bu bölümü okumak isterken kendimden oldukça emindim. Kendimi yazılıma karşı ilgili buluyordum. Şu an ise ASP.NET, C#, JS, SQL Server, Java, MySql
+            yazılım dillerinde gerekli uzmanlığa kavuşmaya çalışıyorum. Okul hayatım boyunca birçok proje gerçekleştirdim. Birkaç freelance iş yapma fırsatı buldum.
+        </p>
+        <p>
+        Kullandığım programlar; Visual Studio, IntelliJ IDEA, Eclipse, Sublime Texture 3, SQL Server, MySQL, Microsoft Access Database, MS Office.
+        </p>
+        <p>
+            Orta-İyi derece İngilizce biliyorum.
+        </p>
+    </div>
+
+    <script>
+        function myFunction() {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+
+            var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns2.length; i++) {
+                var openDropdown2 = dropdowns2[i];
+                if (openDropdown2.classList.contains('show')) {
+                    openDropdown2.classList.remove('show');
+                }
+            }
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function renterTools() {
+            var dropdowns = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+
+        function renterTools2() {
+            var dropdowns = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+            document.getElementById("myDropdown3").classList.toggle("show");
+        }
+
+        function renterTools3() {
+            var dropdowns = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+            document.getElementById("myDropdown4").classList.toggle("show");
+        }
+
+        function renterTools4() {
+            var dropdowns = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+            document.getElementById("myDropdown5").classList.toggle("show");
+        }
+
+        function renterTools5() {
+            var dropdowns = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+            document.getElementById("myDropdown6").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn') && !document.getElementsByClassName('dropdown-content')[0].contains(event.target)) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+
+        }
+    </script>
+</body>
+</html>

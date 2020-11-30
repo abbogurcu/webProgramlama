@@ -1,0 +1,638 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Apartments.com: Apartments and Homes for Rent </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/apartments.css">
+</head>
+<body style="background-color:#fff;">
+    <header>
+        <div class="header">
+            <div class="header-left">
+                <div class="dropdown">
+                    <button onclick="myFunction()" style="font-size:small;" class="dropbtn">
+                        <div style="padding-right:10px;">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        Menu
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+
+
+                        <a href="#" onclick="renterTools(); return false;" class="item">
+                            Renter Tools<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown2" class="dropdown-content2">
+                            <a href="#favorites" class="item">
+                                Favorites
+                            </a>
+                            <a href="#savedsearches" class="item">
+                                Saved Searches
+                            </a>
+                        </div>
+
+
+                        <a href="#customer" class="item">
+                            Rental Manager Tools
+                        </a>
+
+                        <a href="#" onclick="renterTools2();return false;" class="item">
+                            Apartments For Rent<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown3" class="dropdown-content2" style="width: 300px;">
+                            <a href="#home" class="item">
+                                Quincy Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                San Diego Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Seattle Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Austin Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Tampa Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Hoboken Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Arlington Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Charleston Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Santa Fe Apartments For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Burbank Apartments For Rent
+                            </a>
+                        </div>
+
+                        <a href="#" onclick="renterTools3();return false;" class="item">
+                            Homes For Rent <div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown4" class="dropdown-content2" style="width: 300px;">
+                            <a href="#home" class="item">
+                                Milwaukee Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Baltimore Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Las Vegas Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Minneapolis Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Orlando Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Indianapolis Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Houston Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Phoenix Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                San Antonio Homes For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Jacksonville Homes For Rent
+                            </a>
+                        </div>
+
+                        <a href="#" onclick="renterTools4();return false;" class="item">
+                            Condos For Rent<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown5" class="dropdown-content2" style="width: 300px;">
+                            <a href="#home" class="item">
+                                Chicago Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+
+                                Fresno Condos for Rent
+
+                            </a>
+                            <a href="#home" class="item">
+                                Virginia Beach Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Dallas Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Pasadena Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Ann Arbor Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Scottsdale Condos For Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Irvine Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Jersey City Condos for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                New Orleans Condos for Rent
+                            </a>
+                        </div>
+
+                        <a href="#" onclick="renterTools5();return false;" class="item">
+                            Townhomes For Rent<div class="goTo">></div>
+                        </a>
+                        <div id="myDropdown6" class="dropdown-content2" style="width: 330px;">
+                            <a href="#home" class="item">
+                                Kansas City Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Madison Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Philadelphia Townhomes
+                            </a>
+                            <a href="#home" class="item">
+                                Cleveland Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Tucson Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Tallahassee Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Oklahoma City Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Sacramento Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Lexington Townhomes for Rent
+                            </a>
+                            <a href="#home" class="item">
+                                Baltimore Townhomes for Rent
+                            </a>
+                        </div>
+
+                        <a href="#help" class="item">
+                            Help Center
+                        </a>
+
+                        <a href="#mobile" class="item">
+                            Mobile App
+                        </a>
+                    </div>
+                </div>
+
+                <a href="test" onclick="return false;" style="margin-left: 5px;position: absolute; margin-top: 3px; text-decoration: none !important; display: -webkit-inline-box;">
+                    <img src="images/world.png" style="height: 20px;width: auto;position: relative;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);" />
+                    <p style="padding-left:5px;font-size:small;color:#4c4c4c !important;">Español</p>
+                </a>
+                <a href="hakkimda.html" style="margin-left: 105px; position: absolute; margin-top: 3px; text-decoration: none !important; display: -webkit-inline-box;">
+                    <p style="padding-left:5px;font-size:small;color:#4c4c4c !important;">Hakkımda</p>
+                </a>
+            </div>
+            <div class="header-middle">
+                <img class="header-img" src="images/mid-logo.png" />
+            </div>
+            <div class="header-right">
+                <div style="display: -webkit-inline-box;padding-right: 15px;position: relative;top: 27%;">
+                    <a href="#" onclick="return false;" style="text-decoration: none; font-size: small;">
+                        Sign Up
+                    </a>
+                    /
+                    <a href="#" onclick="return false;" style="text-decoration: none; font-size: small;">
+                        Sign In
+                    </a>
+                </div>
+                <button style="float:right;" class="pButton">
+                    Add a Property
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-banner">
+        <div style="z-index:15;position: absolute;top: 30%;text-align: center;left: 0;right: 0;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);">
+            <h1 style="color:white;font-size:100px;">Discover Your New Home</h1>
+            <p style="color:white;font-size:36px;margin-top:-50px;">Helping 100 million renters find their perfect fit.</p>
+            <div style="display:-webkit-inline-box;width:1200px;">
+                <input type="text" style="width:85%;height:65px;display:block;font-size:36px;" placeholder="Chicago, IL">
+                <a href="https://www.apartments.com/search/" title="Search apartments for rent"></a>
+                <button class="sButton">Search</button>
+            </div>
+        </div>
+        <img class="main-photo photoR" src="images/main.jpg" />
+    </div>
+
+    <div class="container" style="margin-bottom:100px;">
+        <h1 style="text-align:center">Explore Rentals in Chicago, IL</h1>
+        <div class="row">
+            <div class="col">
+                <a href="#" onclick="return false;">
+                    <div class="ilan">
+                        <div class="ilanPic" style="background-image:url(images/1.jpg);"></div>
+                        <div style="margin:10px;text-align:center">
+                            <h3>Spoke</h3>
+                            <p>728 N Morgan St,<br>Chicago, IL, 60642</p>
+                            <p>Studio - 3 Bed | $1,125 - $5,784</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" onclick="return false;">
+                    <div class="ilan">
+                        <div class="ilanPic" style="background-image:url(images/2.jpg);"></div>
+                        <div style="margin:10px;text-align:center">
+                            <h3>Elevate</h3>
+                            <p>930 W Altgeld St,<br>Chicago, IL, 60614</p>
+                            <p>Studio - 3 Bed | $1,430 - $13,915</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" onclick="return false;">
+                    <div class="ilan">
+                        <div class="ilanPic" style="background-image:url(images/3.jpg);"></div>
+                        <div style="margin:10px;text-align:center">
+                            <h3>The Residences at NewCity</h3>
+                            <p>1457 N Halsted St,<br>Chicago, IL, 60642</p>
+                            <p>Studio - 2 Bed | $1,695 - $4,500</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" onclick="return false;">
+                    <div class="ilan">
+                        <div class="ilanPic" style="background-image:url(images/4.jpg);"></div>
+                        <div style="margin:10px;text-align:center">
+                            <h3>North+Vine</h3>
+                            <p>633 W North Ave,<br>Chicago, IL, 60610</p>
+                            <p>Studio - 3 Bed | $1,490 - $7,575</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="sButton" style="width: auto; margin-right: auto; border-radius: 10px;margin-left: auto;margin-top:65px;padding:16px 12px;">
+            View More
+        </button>
+        <br />
+        <br />
+        <br />
+        <h2 style="text-align:center">
+            The #1 Site for Renters
+        </h2>
+        <p style="text-align:center">
+            Choose from over 1 million apartments, houses, condos, and townhomes for rent.
+        </p>
+        <div class="row" style="margin-top:45px;width:93%;margin-right:auto;margin-left:auto;">
+            <div class="col" style="margin:20px;padding-right:70px;margin-top:5%;">
+                <h1 style="color:black;font-size:36px;">Renting Made Simple</h1>
+                <p style="font-size:28px;">Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.</p>
+                <a href="#" onclick="return false;"><h2 class="aFind" style="color: dodgerblue;">Find Out More</h2></a>
+            </div>
+            <div class="col" style="background-image:url(images/5.jpg);height:400px;width:auto;background-repeat:no-repeat;background-size:cover;">
+            </div>
+        </div>
+        <div class="row" style="width:93%;margin-right:auto;margin-left:auto;">
+            <div class="col" style="background-image:url(images/6.jpg);height:400px;width:auto;background-repeat:no-repeat;background-size:cover;padding-right:170px;">
+            </div>
+            <div class="col" style="margin:20px;padding-left:20px;margin-top:5%;">
+                <h1 style="color:black;font-size:36px;">Find Your Next Renter</h1>
+                <p style="font-size:28px;">Connect with millions of renters and lease your property 100% online</p>
+                <a href="#" onclick="return false;"><h2 class="aFind" style="color: dodgerblue;">Get Started</h2></a>
+            </div>
+        </div>
+        <div class="row" style="width:93%;margin-right:auto;margin-left:auto;">
+            <div class="col" style="margin:20px;padding-right:70px;margin-top:5%;">
+                <h1 style="color:black;font-size:36px;">Tips for Renters</h1>
+                <p style="font-size:28px;">Find answers to all of your renting questions with the best renter’s guide in the galaxy.</p>
+                <a href="#" onclick="return false;"><h2 class="aFind" style="color: dodgerblue;">Browse Articles</h2></a>
+            </div>
+            <div class="col" style="background-image:url(images/7.jpg);height:400px;width:auto;background-repeat:no-repeat;background-size:cover;">
+            </div>
+        </div>
+        <div class="row" style="width:93%;margin-right:auto;margin-left:auto;">
+            <div class="col" style="background-image:url(images/8.jpg);height:400px;width:auto;background-repeat:no-repeat;background-size:cover;padding-right:170px;">
+            </div>
+            <div class="col test" style="margin:20px;padding-left:20px;margin-top:5%;">
+                <h1 style="color:black;font-size:36px;">Take Us With You</h1>
+                <p style="font-size:24px;">Keep <a href="#" onclick="return false;" style="color: dodgerblue !important;">Apartments.com</a> in the palm of your hand throughout your rental journey.</p>
+                <div style="display:-webkit-inline-box">
+                    <a href="#" onclick="return false;">
+                        <img src="images/9.jpg" style="width:150px;height:auto;" />
+                    </a>
+                    <a href="#" onclick="return false;">
+                        <img src="images/10.jpg" style="width:130px;height:auto;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="test2" style="margin-top:120px;">
+            <p style="font-size:26px;text-align:center;margin:50px 12%;">
+                Search over 1.1 million listings including
+                <a href="#" onclick="return false;" style="color: dodgerblue !important;">
+                    apartments
+                </a>,
+                <a href="#" onclick="return false;" style="color: dodgerblue !important;">
+                    houses
+                </a>,
+                <a href="#" onclick="return false;" style="color: dodgerblue !important;">
+                    condos
+                </a>, and
+                <a href="#" onclick="return false;" style="color: dodgerblue !important;">townhomes</a> available for rent. You’ll find your next home, in any style you prefer.
+            </p>
+        </div>
+    </div>
+
+    <div style="border:1px solid;border-left-width:0px;border-right-width:0px;border-bottom-width:0px;border-color: rgba(76,76,76,0.6);">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="max-width:16%;">
+                    <h3>TOP MARKETS</h3>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Atlanta Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Austin Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Baltimore Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Boston Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Chicago Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Cincinnati Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Dallas Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Denver Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Detroit Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Apartments Near Me</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3><br /></h3>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Houston Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Irvine Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Los Angeles Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Miami Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Nashville Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">New Jersey Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">New York City Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Orlando Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Philadelphia Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Cheap Apartments Near Me</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3><br /></h3>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Phoenix Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Portland Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Queens Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">San Antonio Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">San Diego Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">San Francisco Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Seattle Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Tampa Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Washington DC Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">One Bedroom Apartments Near Me</p></a>
+                </div>
+                <div class="col" style="max-width: 5%" ;>
+                    <div style=" border: 1px solid; border-left-width: 1px; border-right-width: 0px; border-color: rgba(76,76,76,0.3); border-bottom-width: 0px; border-top-width: 0px; height: 100%; margin-left: 30px;">
+                    </div>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3>POPULAR SEARCHES</h3>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Pet Friendly Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Apartments Near Malls</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Staten Island Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Apartments in The Bronx</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Brooklyn Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Jersey Cityo Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Long Island City Apartments</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Utilities-Included Apartments Near Me</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3><br /></h3>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Charlotte Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Houston Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Indianapolis Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Las Vegas Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Orlando Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Phoenix Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Sacramento Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">San Antonio Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">San Diego Houses for Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Houses for Rent Near Me</p></a>
+                </div>
+                <div class="col" style="max-width: 5%" ;>
+                    <div style=" border: 1px solid; border-left-width: 1px; border-right-width: 0px; border-color: rgba(76,76,76,0.3); border-bottom-width: 0px; border-top-width: 0px; height: 100%; margin-left: 30px;">
+                    </div>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3>RENTAL-MANAGER SERVICES</h3>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Rental Manager</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">List Your Property For Rent</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Online Rental</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Applications</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Screen Applicants</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Create Rental Leases</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Automatic Rent Collection</p></a>
+                    <a href="#" onclick="return false;"><p class="aFind" style="font-size:12px;">Rental Manager Resources</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="min-height:570px;margin-top:50px;border:1px solid;border-left-width:0px;border-right-width:0px;border-bottom-width:0px;border-color: rgba(76,76,76,0.6);">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="max-width:25%;">
+                    <img style="float:right;" src="images/mid-logo.png">
+                    <br />
+                    <p style="float:right;">© 2020 CoStar Group, Inc.</p>
+                    <h1><br /></h1>
+                    <h6><br /></h6>
+                    <div style="float:right;display:-webkit-inline-box;">
+                        <a href="#" onclick="return false;"><img src="images/fb.png" style="width:16px;height:auto;margin-right:2px;" /></a>
+                        <a href="#" onclick="return false;"><img src="images/tw.png" style="width:16px;height:auto;margin-right:2px;" /></a>
+                        <a href="#" onclick="return false;"><img src="images/li.png" style="width:16px;height:auto;margin-right:2px;" /></a>
+                        <a href="#" onclick="return false;"><img src="images/pi.png" style="width:16px;height:auto;margin-right:2px;" /></a>
+                        <a href="#" onclick="return false;"><img src="images/yt.png" style="width:16px;height:auto;margin-right:2px;" /></a>
+                        <a href="#" onclick="return false;"><img src="images/bl.png" style="width:16px;height:auto;margin-right:2px;" /></a>
+                    </div>
+                    <p><br /></p>
+                    <a style="float:right;display:-webkit-inline-box;" href="#" onclick="return false;"><img src="images/home.png" style="width: 16px; height: auto; margin-right: 4px;" /><p style=" font-size: 12px; margin-top: 3px;">Equal Housing Opportunity</p></a>
+                </div>
+                <div class="col" style="max-width:16%;margin-left:70px;">
+                    <h3>ADVERTISERS</h3>
+                    <a href="#" onclick="return false;"><p class="bFind">Advertise</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Add a Property</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Digital Feeds Program</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Customer Portal</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Community Voice</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Rental Manager</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3>THE MARKETPLACE</h3>
+                    <a href="#" onclick="return false;"><p class="bFind">Apartamentos.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">ApartmentFinder.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">ApartmentHomeLiving.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">WestsideRentals.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">LoopNet.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Cityfeet.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Showcase.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Realla.co.uk</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">BizBuySell.com</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">LansofAmerica.com</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3>NEIGHBORHOODS</h3>
+                    <a href="#" onclick="return false;"><p class="bFind">Las Colinas</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Westwood</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Uptown Dallas</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">East Village</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Hyde Park</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Uptown Minneapolis</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Downton Austin</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Lincoln Park</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Downtown Houston</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Downtown Dallas</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3>FEATURED CITIES</h3>
+                    <a href="/atlanta-ga/" title="Atlanta, GA Apartments for Rent"><p class="bFind">Riverside, CA</p></a>
+                    <a href="/austin-tx/" title="Austin, TX Apartments for Rent"><p class="bFind">College Station, TX</p></a>
+                    <a href="/baltimore-md/" title="Baltimore, MD Apartments for Rent"><p class="bFind">Bellevue, WA</p></a>
+                    <a href="/boston-ma/" title="Boston, MA Apartments for Rent"><p class="bFind">Madison, WI</p></a>
+                    <a href="/chicago-il/" title="Chicago, IL Apartments for Rent"><p class="bFind">Mountain View, CA</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Oak Park, IL</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Arlington, TX</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Lincoln, NE</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Lexington, KY</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Georgetown, TX</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Greenwood, IL</p></a>
+                </div>
+                <div class="col" style="max-width:16%;">
+                    <h3>ABOUT US</h3>
+                    <a href="#" onclick="return false;"><p class="bFind">About Us</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Careers</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Contact Us</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Legal Notices</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Privacy Notice</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">CA: Do Not Sell My Personal Info</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Equal Housing</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Avoid Scams</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Accessibility</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Blog</p></a>
+                    <a href="#" onclick="return false;"><p class="bFind">Sitemap</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                <script>
+                    function myFunction() {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+
+                        var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns2.length; i++) {
+                            var openDropdown2 = dropdowns2[i];
+                            if (openDropdown2.classList.contains('show')) {
+                                openDropdown2.classList.remove('show');
+                            }
+                        }
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    function renterTools() {
+                        var dropdowns = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                        document.getElementById("myDropdown2").classList.toggle("show");
+                    }
+
+                    function renterTools2() {
+                        var dropdowns = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                        document.getElementById("myDropdown3").classList.toggle("show");
+                    }
+
+                    function renterTools3() {
+                        var dropdowns = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                        document.getElementById("myDropdown4").classList.toggle("show");
+                    }
+
+                    function renterTools4() {
+                        var dropdowns = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                        document.getElementById("myDropdown5").classList.toggle("show");
+                    }
+
+                    function renterTools5() {
+                        var dropdowns = document.getElementsByClassName("dropdown-content2");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                        document.getElementById("myDropdown6").classList.toggle("show");
+                    }
+
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn') && !document.getElementsByClassName('dropdown-content')[0].contains(event.target)) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+
+                    }
+                </script>
+</body>
+</html>
