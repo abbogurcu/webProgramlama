@@ -3,15 +3,15 @@ Homework (https://www.apartments.com)
 
 apartments.com sitesinin front-end tasarımı
 
-BS435 Web Programlama 1 Dersi Vize Ödevi
+<b>BS435 Web Programlama 1 Dersi Vize Ödevi</b>
 
 Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
 Tasarlayan: 
-Adı Soyadı : Ahmet Baran Böğürcü
-Öğrenci No : 1030520658
+<b>Adı Soyadı</b> : Ahmet Baran Böğürcü
+<b>Öğrenci No</b> : 1030520658
 
 
-Dosyalar
+<b>Dosyalar</b>
 
 default.html
 
@@ -60,7 +60,7 @@ images/9.jpg
 images/10.jpg
 
 
-Kullanılan Araçlar
+<b>Kullanılan Araçlar</b>
 
 HTML5
 
@@ -69,6 +69,6 @@ CSS3
 Javascript
 
 
-Kullanılan Yazılımlar
+<b>Kullanılan Yazılımlar</b>
 
 Visual Studio
