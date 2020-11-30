@@ -12,10 +12,15 @@ Adı Soyadı : Ahmet Baran Böğürcü
 
 
 Dosyalar
+
 default.html
+
 hakkimda.html
+
 css/apartments.css
+
 images/home.png
+
 images/main.png
 images/mid-logo.png
 images/menu-icon.png
