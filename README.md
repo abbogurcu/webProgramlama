@@ -9,7 +9,9 @@ apartments.com sitesinin front-end tasarımı
 Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
 </br>
 Tasarlayan: 
+
 <b>Adı Soyadı</b> : Ahmet Baran Böğürcü
+
 <b>Öğrenci No</b> : 1030520658
 
 </br>
